@@ -35,9 +35,9 @@ LiPMO can be installed on most free webhosts. The requirements are the following
 6. Make sure there is nothing but the LiPMO engine and entity files in the LiPMO directory.
 
 ## Creating the entity classes
-Entity classes are not created automatically, you have to create them by yourself. You don't have to worry, it only takes a few minutes and it is actually very simple. You can check the provided example "Sample.php" (you can actually delete it from your project).
+Entity classes are not created automatically, you have to create them by yourself. Don't worry though, it only takes a few minutes and it is actually very simple. You can check the provided example "Sample.php" (you can actually delete it from your project).
 
-Let's assume you have a table called __user__ with 4 fields: id, username, password, email. Let's create an entity class for it:
+Let's assume you have a table called __user__ with 4 fields: __id, username, password, email__. Let's create an entity class for it:
 
 ```PHP
 <?php
@@ -46,7 +46,7 @@ Let's assume you have a table called __user__ with 4 fields: id, username, passw
 	
 	class User extends DBEntity {
 		
-		// Set the actual name of the table in the constructor
+		// Set the name of the table in the constructor
 		public function __construct() {
 			$this->tableName = "user";
 		}
