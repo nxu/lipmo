@@ -13,10 +13,12 @@ LiPMO is exactly what its name suggests. It is the abbrevation of **Li**ghtweigh
 * Select all
 * Select with condition(s)
 * Paging support for selects (start and limit values)
+
 LiPMO uses PDO parametrized queries which improves the security and performance of the MySQL queries.
 
 ## Non-features
-The part "lightweight" is meant very seriously. LiPMO features only the minimum of what an object relational mapper needs, nothing fancy. Therefore it needs no special installation or configuration - and it's extremely easy to use.
+The part "lightweight" is meant very seriously. LiPMO features only the minimum of what an object relational mapper needs, nothing fancy. Therefore it requires no special installation or configuration - and it's extremely easy to use.
+
 The biggest feature of many huge ORM Frameworks that LiPMO does not support is the mapping of table relations.
 
 ## Server side requirements
