@@ -2,7 +2,7 @@ LiPMO
 =====
 
 ## What is LiPMO?
-LiPMO is exactly what its name suggests. It is the abbrevation of **Li**ghtweight **P**HP - **M**ySQL **O**RM. 
+LiPMO is exactly what its name suggests. It is the abbrevation of **Li**ghtweight **P**HP - **M**ySQL **O**RM. Originally I created it as a part of a university project but I kept working on it and finally I release it to the public.
 
 ## Features
 * Automatic mapping of MySQL tables to PHP classes
