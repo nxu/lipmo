@@ -98,7 +98,6 @@
 			
 			// Create query string
 			$queryString = "SELECT $columns FROM $tableName WHERE $criteria"; 
-			print($queryString);
 			if (is_int($start) && is_int($limit)) {
 				$queryString .= " LIMIT $start, $limit";
 			}
